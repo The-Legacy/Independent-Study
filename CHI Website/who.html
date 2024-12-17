@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+    <!-- title information and set up -->
+    <head>
+        <title>Compassionate Hearts Initiative</title>
+        <link rel="stylesheet" href="whoStyle.css" type="text/css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="We want Hearts">
+    </head>
+
+    <!-- header for back buttom -->
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="Chi.html">What is CHI</a></li>
+                <li><a href="help.html">How to Help</a></li>
+                <li><a id="seperatePage" href="who.html">Who We Are</a></li>
+            </ul>
+            <img src="./img/chi official-1500h copy.png" alt="" class="logo">
+        </nav>
+        <!-- <a class="admin">Admin Login</a> -->
+    </header>
+
+    <!-- main body  -->
+    <body>
+        <!-- admin login page -->
+        <div class="adminLogin">
+            <form class="userPass">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password:</label><br>
+                <input for="text" id="password" name="password">
+            </form>
+            <div class="buttons">
+                <button class="submit" type="button">Submit</button>
+                <button class="cancel" type="button">Cancel</button>
+            </div>
+        </div>
+
+        <!-- wrong login page  -->
+        <div class="wrongLogin">
+            <h3 class="sorry">Sorry, thats incorrect.</h3>
+            <div class="buttons">
+                <button class="tryAgain" type="button">Try Again</button>
+            </div>
+        </div>
+
+        <!-- editing page  -->
+        <div class="editing">
+            <div class="inputs">
+                <div class="input">
+                    <label for="positions">What position needs information changed?</label>
+                    <select class="positionSelect" name="positions" id="positions">
+                        <option value="president">President</option>
+                        <option value="it">IT</option>
+                        <option value="treasurer">Treasurer</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label for="name">Name:</label><br>
+                    <input class="change" type="text" id="name" name="Name"><br>
+                </div>
+                <div class="input">
+                    <label for="title">Title:</label><br>
+                    <input class="change" type="text" id="title" name="title"><br>
+                </div>
+                <div class="input">
+                    <label for="bioPara">Bio Paragraph:</label><br>
+                    <input class="change" type="text" id="bioPara" name="bioPara"><br>
+                </div>
+            </div>
+            <button type="button" class="commit buut">Commit</button>
+            <button type="button" class="leave buut">Leave</button>
+        </div>
+
+        <!-- personal bios -->
+        <div class="bios">
+
+            <!-- bio one  -->
+            <div class="bio topBio">
+                <img src="./img/FemalePolitician.jpeg" class="profile">
+                <div class="bioInfo">
+                    <h2 class="name" id="presidentName">Lilia Miller</h2>
+                    <h4 class="position" id="presidentTitle">President</h4>
+                    <p class="bioPara" id="presidentBio">yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap</p>
+                </div>
+            </div>
+
+            <!-- dividing line for bios  -->
+            <hr size="3px" width="60%" color="#b07d77">
+
+            <!-- bio two -->
+            <div class="bio">
+                <div class="bioInfoReverse">
+                    <h3 class="nameReverse" id="itName">Logan Schwandner</h3>
+                    <h5 class="positionReverse" id="itTitle">IT (Super Important)</h5>
+                    <p class="bioParaReverse" id="itBio">I honestly think that the world would be a better place if everyone got free donuts every sunday</p>
+                </div>
+                <img src="./img/HarryPotterIT.jpeg" class="profileReverse">
+            </div>
+            <hr size="3px" width="60%" color="#b07d77">
+
+            <!-- bio three -->
+            <div class="bio">
+                <img src="./img/FemalePolitician.jpeg" class="profile">
+                <div class="bioInfo">
+                    <h3 class="name" id="treasurerName">Kaelyn Loverin</h3>
+                    <h5 class="position" id="treasurerTitle">Treasurer</h5>
+                    <p class="bioPara" id="treasurerBio">Money's pretty cool</p>
+                </div>
+            </div>
+            <hr size="3px" width="60%" color="#b07d77">
+        </div>
+
+        <!-- footer field  -->
+        <div class="footer">
+            <div class="lists">
+                <div class="contacts">
+                    <ul class="footerList">
+                        <li class="contact">Info</li>
+                        <li class="contact">Meal Packing</li>
+                        <li class="contact">Can Drives</li>
+                    </ul>
+                </div>
+                <div class="moreInfo">
+                    <ul class="footerList">
+                        <li class="info">Contacts</li>
+                        <li class="info">compassionateheartsinitiative@gmail.com</li>
+                        <li class="info">(123)-456-7890</li>
+                    </ul>
+                </div>
+                <div class="media">
+                    <ul class="footerList">
+                        <li class="med">Media</li>
+                        <li class="med">Facebook</li>
+                        <li class="med">Instagram</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- images for footer logos -->
+            <div class="footerImgs">
+                <img class="footerImg" src="./img/facebook.png">
+                <img class="footerImg" src="./img/twitter.png">
+                <img class="footerImg" src="./img/instagram.png">
+            </div>
+
+            <!-- must have copyright -->
+            <p class="copyright">&copy; Compassionate Hearts Initiative, All Rights Reserved</p>
+        </div>
+    </body>
+
+    <script src="./who.js"></script>
+
+</html>

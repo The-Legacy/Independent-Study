@@ -1,0 +1,323 @@
+html,
+body,
+header{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #df9086;
+}
+
+header {
+    background-color: #244855;
+    width: 100%;
+    height:70px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+header ul {
+    margin-top: auto;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: auto;
+}
+
+header li{
+    display: inline-block;
+    font-size: large;
+}
+
+header li a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.navigation{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: 20px;
+    height: 60px;
+    width: auto;
+}
+
+.involveJumbotron{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/GrandRapidsImgOne.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.getInvolved{
+    /* background-color: black; */
+    width: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.join{
+    /* background-color: black; */
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recruitButton{
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    font-size: large;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .2s ease-in-out;
+}
+
+.recruitButton:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+
+.possibleTimes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.whenAndWhere{
+    text-align: center;
+}
+
+.times{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.whenAndWhere{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.canTimes{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.52);
+    -moz-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.52);
+    transition: all .2s ease-in-out;
+}
+
+.canTimes:hover{
+    transform: scale(1.05);
+    box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.3);
+}
+
+.mealPackagingTimes{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.52);
+    -moz-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.52);
+    transition: all 0.2s ease-in-out;
+}
+
+.mealPackagingTimes:hover{
+    transform: scale(1.05);
+    box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.3);
+}
+
+ul{
+    list-style: none;
+}
+
+.donatingOptions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBE9D0;
+    height: 600px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.donate{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: white;
+    width: 20%;
+    height: 125px;
+    display: flex;
+    transition: all .2s ease-in-out;
+    box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.52);
+    -moz-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.52);
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 14px 15px 29px 4px rgba(0,0,0,0.3);
+}
+
+.cardTitle{
+    margin-left: 15px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.guiltButton{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.guiltButton:hover{
+    color: black;
+    background-color: rgb(241, 241, 241);
+    transform: scale(1.05);
+}
+
+.contactJumbotron{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/GrandRapidsImgOnePlus.png");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.questions{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactUs{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactButton{
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    font-size: large;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .2s ease-in-out;
+}
+
+.contactButton:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #FBE9D0;
+    color: black;
+    border-right: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.footerList{
+    color: #b8a892;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footerImgs{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 33.3%;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerImg{
+    width: 10%;
+    height: 10%;
+}
+
+.lists{
+    display:flex;
+    justify-content: space-evenly;
+    width: 66.7%;
+    float: left;
+}
+
+.copyright{
+    position: absolute;
+    padding-left: 65%;
+    padding-right: 30px;
+    padding-top: 60px;
+    color: #b8a892;
+}
