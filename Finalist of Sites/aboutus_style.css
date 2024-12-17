@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+#current_page{
+    text-decoration: underline;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #024950;
+}
+
+.navbar_title--container{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar_title{
+    margin: auto auto auto auto;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.navbar_img{
+    height: 90px;
+    width: 100px;
+}
+
+.navbar_line{
+    background-color: #fff;
+    width: 85%;
+    margin: auto;
+    height: 2px;
+}
+
+.navbar_items{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.navbar_item{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar_item:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* bios header */
+.bios_header{
+    background-color: #0d747b;
+    color: #fff;
+    height: 200px;
+    display: flex;
+}
+
+.header_contents{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.title{
+    margin: auto auto 20px auto;
+}
+
+.header_bar{
+    margin: 0px auto auto auto;
+    background-color: #fff;
+    height: 2px;
+    width: 55%;
+}
+
+/* Bios */
+
+.bios{
+    display: flex;
+    flex-direction: column;
+}
+
+.bio_format--one{
+    height: 340px;
+    background-color: #0d747b;
+    display: flex;
+    flex-direction: column;
+}
+
+.bio_container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: #fff;
+    height: 250px;
+    border-radius: 10px;
+    margin: 0px auto 0px auto;
+    box-shadow: 10px 10px 12px 3px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 10px 10px 12px 3px rgba(0,0,0,0.56);
+    transition: all 0.4s ease-in-out;
+}
+
+.bio_container:hover{
+    transform: scale(1.025);
+}
+
+.name{
+    color: #003135;
+}
+
+.bio_info{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.person_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.bio_format--one .person_img{
+    margin: auto 40px auto auto;
+}
+
+.bio_format--two .person_img{
+    margin: auto auto auto 40px;
+}
+
+.bio_format--two{
+    height: 340px;
+    background-color: #0d747b;
+    display: flex;
+    flex-direction: column;
+}
+
+/* bio shrinky screen */
+@media screen and (max-width: 800px){
+
+    .bio_container{
+        height: 175px;
+        width: 90%;
+    }
+
+    .bios{
+        height: 1400px;
+    }
+
+    .person_img{
+        height: 125px;
+        width: 125px;
+        margin-left: 17.5px;
+        margin-right: 17.5px;
+    }
+
+    .name{
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+    }
+
+    .bio_info{
+        font-size: .7rem;
+    }
+
+    .bio_format--one .bio_info{
+        margin-left: 20px;
+    }
+
+    .bio_format--two .bio_info{
+        margin-right: 20px;
+    }
+
+    .title{
+        margin: 40px auto 0px auto;
+    }
+
+    .bios_header{
+        height: 120px;
+    }
+
+    .bio_format--one .person_img{
+        margin: auto 20px auto auto;
+    }
+    
+    .bio_format--two .person_img{
+        margin: auto auto auto 20px;
+    }
+}
+
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-color: #0a5d63;
+    color: #fff;
+}
+
+.footer_lists{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.footer_list{
+    list-style: none;
+}
+
+.head {
+    font-size: 1.2rem;
+}
+
+.icons_trademark{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+    color: #fff;
+}
+
+.facebook{
+    border: 2px white solid;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.38);
+-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.38);
+}
+
+.trademark{
+    margin: auto;
+}
+
+@media screen and (max-width: 700px){
+    .footer_lists{
+        font-size: .7rem;
+        text-align: center;
+    }
+
+    .footer{
+        height: 125px;
+    }
+
+    .head{
+        font-size: 1rem;
+    }
+
+    .icon{
+        height: 40px;
+        width: 40px;
+    }
+
+    .icons{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .icons_trademark{
+        font-size: .8rem;
+        margin-top: 0px;
+        margin-bottom: auto;
+    }
+}
